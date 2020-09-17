@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*global css here*/
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+.container{
+	width:1140px;
+	margin:0px auto;
+}
+h1, h2, h3, h4, h5, h6, ul ,li{
+	font-family:'Quicksand', sans-serif;
+}
+p, span, input, button{
+	font-family: 'Roboto', sans-serif;
+}
+a:hover a{
+	text-decoration:none;
+}
+ul li{
+	list-style:none;
+}
+
+body{
+	margin-bottom:100px;
+}
+
+/*global css end here*/
+
+/*header section css start here*/
+.header{
+	width:100%;
+	display: flow-root;
+}
+.logo{
+	margin:20px;
+}
+.logo img{
+	vertical-align:middle;
+}
+.logo span{
+	vertical-align:middle;
+	margin-left:5px;
+	font-size: 20px;
+    font-weight: 900;
+}
+/*header
+section css end here*/
+
+/*banner section css start here*/
+.banner{
+	width:100%;
+	display: flow-root;
+	margin-bottom: 50px;
+}
+
+.banner-body{
+	width:100%;
+	float:left;
+}
+
+/*banner-left css*/
+
+.banner-left{
+	width:60%;
+	float:left;
+}
+
+.banner-post{
+	font-size: 20px;
+    font-weight: 550;
+    padding-right: 18%;
+}
+.banner-post  p{
+	margin: 20px 0px;
+	font-weight: 400;
+	color: #4c527d;
+}
+.banner-post button{
+    padding: 11px 26px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border:2px solid #ed6524;
+}
+
+.left-button{
+	color:white;
+	background-color:#ed6524;
+	transition:0.5s;
+	transition: 0.5s;
+}
+.left-button:hover{
+	color:black;
+	transition:0.5s;
+	font-style: italic;
+	transform: scale(1.2);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.right-button{
+	color:#ed6524;
+	background-color:transparent;
+	transition:0.5s;
+	margin-left:10px;
+	transition: 0.5s;
+}
+
+.right-button:hover{
+	color:black;
+	background-color:#ed6524;
+	transition:0.5s;
+	font-style: italic;
+	transform: scale(1.2);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.banner-comment{
+	margin-top: 30px;
+}
+.comment-post{
+	width:100%;
+	background-color: #f6f8fc;
+	padding:20px;
+	border-left:4px solid #ed6524;
+	font-style: italic;
+}
+
+.comment-user{
+	width: 100%;
+	float: left;
+}
+.user-image{
+	width: 15%;
+	float: left;
+	margin-top: 10px;
+    margin-left: 30px;
+}
+.user-des{
+	width: 75%;
+	float: right;
+	margin-top: 25px;
+}
+.user-des p{
+	margin: 0px;
+}
+
+
+/*banner-right css*/
+.banner-right{
+	width:40%;
+	float:right;
+}
+.banner-image{
+    width: 90%;
+	position:relative;
+}
+.image-logo{
+	position:absolute;
+	height:100px;
+	width:100px;
+	border-radius:100%;
+	background-color:#5cb377;
+	top: -35px;
+    right: 10px;
+}
+.image-logo h3{
+	text-align: center;
+	color:white;
+	padding-top: 27px;
+}
+.banner-text{
+	width:88%;
+	text-align: center;
+}
+.banner-text a{
+	color: black;
+}
+.banner-text a:hover{
+	color:darkred;
+	cursor: pointer;
+}
+
+/*banner section css end here*/
+
+/*service section css start here*/
+
+.service{
+	width:100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+	background-repeat: repeat-x;
+}
+
+/*service top css*/
+
+.service-top{
+	width: 100%;
+	text-align: center;
+	margin-bottom:85px;
+}
+.service-top h1{
+	margin: 55px 0px 20px 0px;
+}
+.service-top p{
+	padding: 0px 26%;
+	color: #4c527d;
+}
+
+
+/*service bottom css*/
+
+.service-bottom{
+	width:100%;
+	float: left;
+	margin-bottom: 50px;
+}
+.chart{
+	width:33%;
+	float: left;
+}
+.chart-1{
+	text-align: center;	
+	padding: 40px 40px 0px 40px;
+}
+.chart-1 i{
+	font-size: 50px;
+	color:#ed6524;
+}
+.chart-1 h2{
+	margin: 15px 0px;
+	font-size: 18px;
+}
+.chart-1 p{
+	color: #4c527d;
+}
+
+/*service section css end here*/
+
+/*include section css start here*/
+
+.include{
+	width: 100%;
+	display:flow-root;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.include-body{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 45px;
+}
+.include-body h1{
+	font-size: 40px;
+}
+
+
+/*include bottom css here*/
+
+.include-bottom{
+	width: 100%;
+	float:left;
+}
+.bottom-left{
+	width:50%;
+	float:left;
+}
+
+.include-image{
+	width: 65%;
+    padding-left: 32%;
+}
+
+/*bottom right css*/
+
+.bottom-right{
+	width: 50%;
+	float: left;
+}
+
+.include-list{
+	text-align: center;
+	padding-left: 10%;
+	font-size: 18px;
+}
+.include-list ul li{
+	line-height: 40px;
+	font-weight: 500;
+	color: #4c527d;
+	text-align: left;
+}
+.include-list i{
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color:#5cb377;
+	border-radius: 100%;
+	color: white;
+	line-height: 20px;
+	text-align: center;
+}
+
+/*button css here*/
+
+.include-button{
+	text-align: center;
+	padding-right: 40%;
+}
+.include-button button{
+	margin: 30px 0px 0px 50px;
+    padding: 11px 40px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background-color: #ed6524;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.include-button button:hover{
+	background-color:black;
+	font-style: italic;
+	transform: scale(1.2);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*include section css end here*/
+
+/*reason section css start here*/
+
+.reason{
+	width: 100%;
+	display: flow-root;
+	margin-bottom: 60px;
+}
+.reason-body{
+	width: 100%;
+}
+.reason-title{
+	text-align: center;
+	margin-bottom: 55px;
+}
+.reason-title h1{
+	margin: 55px 0px 25px 0px;
+	font-size: 40px;
+}
+.reason-title p{
+	padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4c527d;
+}
+
+/*reason list css*/
+
+.reason-list{
+	width: 100%;
+	float: left;
+}
+.reason-icon{
+	width: 31%;
+	float: left;
+	text-align: right;
+	color:#5cb377;
+}
+.reason-icon ul li i{
+	margin-bottom: 15.50%;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.reason-text{
+	width: 67%;
+	float: right;
+}
+.reason-details{
+	padding-right: 40%;
+}
+.reason-details ul li h1{
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+.reason-details ul li p{
+	margin-bottom: 20px;
+	font-weight: 400px;
+	color: #4c527d;
+}
+/*reason section css end here*/
+
+
+/*preview section css start from here*/
+.preview{
+	width:100%;
+	margin-bottom: 50px;
+	display: flow-root;
+}
+.preview-body{
+	width: 800px;
+	height: 270px;
+	background-color:  #f6f8fc;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+.preview-top{
+    text-align: center;
+}
+.preview-top h1{
+	padding: 20px 0px 10px 0px;
+}
+.preview-top p{
+	padding-bottom: 20px;
+	color: #4c527d;
+}
+.preview-bottom form{
+	margin-left: 20%;
+}
+.preview-bottom input{
+	
+}
+.preview-email{
+	padding: 14px 35% 14px 10px;
+	border: 1px solid #e3e9f6;
+    border-radius: 5px;
+}
+.preview-email:focus{
+	outline: none;
+}
+.preview-submit{
+    padding: 12px 20px 12px 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #ed6524;
+    background: none;
+    background-color: #ed6524;
+    transition: 0.5s;
+}
+.preview-submit:hover{
+	background-color: black;
+	border: black;
+	font-style: italic;
+	border: white;
+	transition: 0.5s;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+/*preview section css end from here*/
+
+
+/*review section css start here*/
+.review{
+	width: 100%;
+	display: flow-root;
+}
+
+.review-body{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.review-title{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.review-title h1{
+	font-size: 40px;
+    margin-bottom: 10px;
+}
+.review-title p{
+	font-size: 20px;
+	color: #4c527d;
+}
+
+/*review post css*/
+
+/*review post 1*/
+.review-post{
+	width: 100%;
+	float: left;
+	margin-bottom: 35px;
+}
+.review-user{
+	width: 33%;
+	float: left;
+	position: relative;
+}
+.user-1{
+	width: 360px;
+	height: 200px;
+	background-color: #f6f8fc;
+	border-radius: 15px;
+}
+.user-1 p{
+	padding: 30px 35px 15px 20px;
+	color: #4c527d;
+	font-style: italic;
+	font-size: 16px;
+}
+.user-1-post{
+	width: 100%;
+}
+.user-1-image{
+	width: 15%;
+	float: left;
+	padding: 5px 0px 20px 20px;
+}
+.user-1-des{
+	width: 75%;
+	float:right;
+	padding-top: 10px;
+}
+.user-1-des p{
+	padding: 0px;
+	color: #4c527d;
+}
+
+.review-icon{
+	position: absolute;
+    top: -15px;
+    left: 41%;
+    height: 35px;
+    width: 35px;
+    background-color:#f5a782;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+
+/*review post-2*/
+
+.review-post-2{
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+.space{
+	width: 10%;
+	float: left;
+	padding: 40px;
+}
+.review-user-2{
+	width: 33%;
+	float: left;
+	position: relative;
+}
+.user-2{
+	width: 360px;
+	height: 200px;
+	background-color: #f6f8fc;
+	border-radius: 15px;
+}
+.user-2 p{
+	padding: 30px 35px 15px 20px;
+	color: #4c527d;
+}
+.user-2-post{
+	width: 100%;
+}
+.user-2-image{
+	width: 15%;
+	float: left;
+	padding: 5px 0px 20px 20px;
+}
+.user-2-des{
+	width: 75%;
+	float:right;
+	padding-top: 10px;
+}
+.user-2-des p{
+	padding: 0px;
+	color: #4c527d;
+}
+
+.review-icon-2{
+	position: absolute;
+    top: -15px;
+    left: 41%;
+    height: 35px;
+    width: 35px;
+    background-color: #f5a782;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+
+.review-button{
+	text-align: center;
+
+}
+.review-button button{
+	padding: 15px 34px;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid #ed6524;
+    color: white;
+    background: none;
+    background-color: #ed6524;
+    transition: 1s;
+}
+.review-button button:hover{
+	background-color: black;
+	border: black;
+	font-style: italic;
+	border: white;
+	transition: 1s;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+/*review section end here*/
+
+/*about section css start here*/
+
+.about{
+	width: 100%;
+	background-color: #ed6524;
+	margin-bottom: 25px;
+	padding-bottom: 60px;
+}
+.about-body{
+	width:100%;
+}
+.about-image{
+	text-align: center;
+}
+.about-image img{
+	width: 13%;
+	padding-top: 5%;
+    padding-bottom: 3%;
+}
+.about-image h1{
+	color: #fff;
+	font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.about-post{
+	padding-bottom: 20px;
+}
+
+.about-post p{
+	color: #fff;
+	padding: 0px 17%;
+	padding-bottom: 18px;
+	font-size: 16px;
+    line-height: 25px;
+}
+
+.about-social{
+	width: 100%;
+	text-align: center;
+}
+.about-social h1{
+	color: #fff;
+	font-size: 23px;
+    padding-bottom: 25px;
+}
+.about-social ul li{
+	list-style: none;
+	display: inline-block;
+}
+.about-social ul li i{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.about-social ul li i:hover{
+	background-color: black;
+	border: black;
+	color: white;
+	transition: 1s;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.about-social hr{
+	width: 30%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+/*about section css end here*/
+
+/*footer section css start here*/
+
+.footer{
+	width: 100%;
+}
+.footer-body{
+	width: 100%;
+	text-align: center;
+}
+.footer-body span{
+    font-family: 'Grandstander', cursive;
+    font-size: 22px;
+    color: #4c527d;
+}
+.footer-body i{
+	font-size: 22px;
+	color: red;
+}
+
+/*footer section end here*/
